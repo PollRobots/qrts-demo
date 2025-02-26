@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES2023",
+    "jsx": "react"
+  }
+}
