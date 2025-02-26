@@ -4,12 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development --hot",
+    "build-prod": "webpack --mode development",
+    "build-dev": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Paul C Roberts",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "source-map-loader": "^5.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }
