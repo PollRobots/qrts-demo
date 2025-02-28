@@ -1,4 +1,4 @@
-import { QRCode } from "qrts";
+import { QRCode } from "@pollrobots/qrts";
 
 export interface GraphicsContext {
   fillRect: (x: number, y: number, width: number, height: number) => void;

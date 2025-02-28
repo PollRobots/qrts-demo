@@ -1,7 +1,7 @@
 import * as React from "react";
 import { flushSync } from "react-dom";
 import { createRoot } from "react-dom/client";
-import { generate, ErrorCorrectLevel } from "qrts";
+import { generate, ErrorCorrectLevel } from "@pollrobots/qrts";
 import { SvgCode } from "./svgcode";
 import { CanvasCode, renderPixelCode } from "./canvascode";
 
