@@ -1,11 +1,10 @@
 import * as React from "react";
 import { QRCode } from "@pollrobots/qrts";
-import { CodeStyle } from "./app";
 import {
   circles,
+  CodeStyle,
   connectedCircles,
   GraphicsContext,
-  Neighbor,
   rectangles,
 } from "./graphics";
 

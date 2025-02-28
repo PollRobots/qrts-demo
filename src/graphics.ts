@@ -1,5 +1,15 @@
 import { QRCode } from "@pollrobots/qrts";
 
+export type CodeStyle =
+  | "normal"
+  | "transparent"
+  | "circles"
+  | "circles-transparent"
+  | "circles-overlapped"
+  | "circles-overlapped-transparent"
+  | "connected-circles"
+  | "connected-circles-transparent";
+
 export interface GraphicsContext {
   fillRect: (x: number, y: number, width: number, height: number) => void;
   circle: (cx: number, cy: number, radius: number) => void;
